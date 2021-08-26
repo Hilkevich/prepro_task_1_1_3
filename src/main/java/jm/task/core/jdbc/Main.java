@@ -15,6 +15,7 @@ public class Main {
          */
 
 
+
         Util.myDbConnection();                                                            // подключение к BD. (вызываем конекшн из Util, создав его там).
         UserServiceImpl userServiceImpl = new UserServiceImpl();                          // создание объекта класса сервиса (UserServiceImpl), через который будут вызываться методы сервиса.
        // userServiceImpl.dropUsersTable();
