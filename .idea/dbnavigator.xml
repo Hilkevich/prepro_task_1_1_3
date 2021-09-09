@@ -24,7 +24,14 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="6875d8bf-ad0f-45fe-af92-f6246415f9c1">
+        <schema name="mydb" object-types="table, view" />
+      </connection>
+      <connection connection-id="8a134e59-f418-47bd-bc19-2279044b9b08">
+        <schema name="mydb" object-types="table, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6875d8bf-ad0f-45fe-af92-f6246415f9c1">
@@ -47,6 +54,11 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="6875d8bf-ad0f-45fe-af92-f6246415f9c1" dataset="mydb.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="8a134e59-f418-47bd-bc19-2279044b9b08" dataset="mydb.user" active-filter-id="f32620e0-c3e0-423d-94fb-3206819367fc">
+      <filter id="f32620e0-c3e0-423d-94fb-3206819367fc" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
